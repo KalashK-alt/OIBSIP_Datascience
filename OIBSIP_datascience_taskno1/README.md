@@ -1,8 +1,8 @@
-Objective
+# Objective
 
 The objective of this project is to classify iris flowers into their respective species (Setosa, Versicolor, Virginica) based on sepal and petal measurements. This is a beginner-friendly machine learning task often used as a foundation for understanding supervised classification.
 
-#Steps Performed
+# Steps Performed
 
 >Data Collection
 Used the standard Iris dataset (Iris.csv) which contains flower measurements.
@@ -24,7 +24,7 @@ Assessed performance using confusion matrix and classification report (precision
 >Model Saving
 Saved trained model (iris_model.pkl) and scaler (scaler.pkl) for reuse.
 
-#Tools & Libraries Used
+# Tools & Libraries Used
 
 *Pandas, Numpy → Data handling
 *Seaborn, Matplotlib → Visualization
@@ -36,7 +36,7 @@ Saved trained model (iris_model.pkl) and scaler (scaler.pkl) for reuse.
 *Scikit-learn → Preprocessing, Model training, Evaluation
 *Joblib → Saving and loading the trained model
 
-#Outcome
+# Outcome
 
 Achieved high accuracy in classifying the iris flowers into their species.
 Visualizations (pairplot & heatmap) revealed clear separation between classes.
